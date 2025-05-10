@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#area1 {
+    height: 93px;
+    display: flex;
+    align-items: center;
+}
+
+#team_name {
+    font-size: 36px;
+    padding: 16px;
+    width: 328px;
+    margin-left: 160px;
+    white-space: nowrap;
+}
+
+#list {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+    width: 366px;
+    margin-left: 498px;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    white-space: nowrap;
+}
+
+#area6 {
+    margin-top: 10px;
+    height: 374px;
+}
+
+#img {
+    width: 1217px;
+    display: flex;
+    height: 100%;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.box3 {
+    flex: 1;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.box1 {
+    background-image: url("img/img1.jpg");
+}
+
+.box2 {
+    background-image: url("img/img2.jpg");
+}
+
+.box3img {
+    background-image: url("img/img3.jpg");
+}
+
+.box4 {
+    background-image: url("img/img1.jpg");
+}
+
+.case {
+    margin-top: 33px;
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+#area3 {
+    height: 428px;
+}
+
+#box2 {
+    display: flex; 
+    flex-direction: column;
+    width: 1217px;
+    height: 386px;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.text {
+    flex: 1;
+    display: flex; 
+    align-items: center;
+    font-size: 32px;
+    margin-left: 40px;
+}
+
+.left {
+    width: 10%;
+}
+
+.right {
+    width: 90%;
+  }

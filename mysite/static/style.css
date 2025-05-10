@@ -23,31 +23,13 @@
     text-align: center;
     font-size: 16px;
     width: 366px;
-    margin-left: 258px;
+    margin-left: 498px;
     display: flex;
     align-items: center;
     gap: 75px;
     white-space: nowrap;
 }
 
-#log_in {
-    flex: 1;
-    font-size: 16px;
-    text-align: center;
-    width: 105px;
-    margin-left: 183px;
-    align-items: center;
-    display: flex;
-    gap: 20px;
-    white-space: nowrap;
-}
-
-#log_img {
-    background-image: url("img/log_in_img.png");
-    background-size: cover;
-    width: 25px;
-    height: 25px;
-}
 #area2 {
     height: 627px;
 }
@@ -100,7 +82,7 @@
     margin-top: 40px;
 }
 #area3 {
-    height: 608px;
+    height: 538px;
     display: flex;
     flex-direction: column;    
     justify-content: center;
@@ -116,19 +98,19 @@
 }
 
 #text2 {
-    margin-top: 87px;
+    margin-top: 47px;
     width: 100%;
-    font-size: 45px;
-    text-align: center;
+    font-size: 60px;
     line-height: 50px;
+    margin-left: 50px;
 }
 
 #text3 {
     margin-top: 40px;
     width: 100%;
-    font-size: 45px;
-    text-align: center;
+    font-size: 35px;
     line-height: 50px;
+    margin-left: 50px;
 }
 
 #area4 {
@@ -220,7 +202,7 @@
     padding: 16px;
     transition: all 0.3s ease;
     margin: 0 auto;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 
 #btn2:hover {

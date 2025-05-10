@@ -8,13 +8,9 @@
     <div id="area1">
         <div id="team_name">Canon Korea_5조</div>
         <div id="list">
-            <div>이미지 선택</div>
-            <div>분류</div>
-            <div>About</div>
-        </div>
-        <div id="log_in">
-            <div>Log in</div>
-            <div><div id="log_img"></div></div>
+            <div style="cursor: pointer;">Main</div>
+            <div onclick="location.href='{% url 'page'%}'" style="cursor: pointer;">분석</div>
+            <div onclick="location.href='#area3'" style="cursor: pointer;">About</div>
         </div>
     </div>
     <div id="area2">
@@ -22,19 +18,19 @@
             <div id="text1">핸디형 비전,<br>조작부 상태 감지 시스템</div>
             <div id="btn_box">
                 <div class="btn1">이미지 선택</div>
-                <div class="btn1">전처리 하기</div>
+                <div onclick="location.href='{% url 'page'%}'" class="btn1">분석하기</div>
             </div>
         </div>
     </div>
     <div id="area3">
         <div id="box2">
-            <div id="text2">“text_text_text_text_text_text_text_text_text_text_text_<br>text_text_text_text_text_text_text_text_text_”</div>
-            <div id="text3">text_text_text_<br>text</div>
+            <div id="text2">Project</div>
+            <div id="text3">복합기 조작부 상태를 실시간으로 분석하는 시각 인식 시스템입니다.<br> 1cycle 동안 촬영된 이미지 시퀀스를 업로드하면,<br> 각 target(버튼, 패널 등)의 상태를 자동으로 감지하여 분류 결과를<br> 확인할 수 있습니다.</div>
         </div>
     </div>
     <div id="area4">
         <div id="area5">
-            <div id="title1">text_text_text_</div>
+            <div id="title1">Case 결과</div>
         </div>
         <div id="area6">
             <div id="img">

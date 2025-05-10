@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="{% static 'page_style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div id="area1">
+        <div id="team_name">Canon Korea_5조</div>
+        <div id="list">
+            <div onclick="location.href='{% url 'index'%}'" style="cursor: pointer;">Main</div>
+            <div style="cursor: pointer;">분석</div>
+            <div onclick="location.href='{% url 'index'%}#area3'" style="cursor: pointer;">About</div>
+        </div>
+    </div>
+    <div id="area6">
+        <div id="img">
+            <div onclick="location.href='{% url 'case1_page'%}'" class="box3 box1">
+                <div class="case">Case1</div>
+            </div>
+            <div class="box3 box2">
+                <div class="case">Case2</div>
+            </div>
+            <div class="box3 box3img">
+                <div class="case">Case3</div>
+            </div>
+            <div class="box3 box4">
+                <div class="case">Case4</div>
+            </div>
+        </div>
+    </div>
+    <div id="area3">
+        <div id="box2">
+            <div class="text"><div class="left">[case1]</div><div class="right">frame_003.jpg, frame_005.jpg, frame_009.jpg, frame_012.jpg, frame_014.jpg,</div></div>
+            <div class="text"><div class="left">[case2]</div><div class="right">frame_003.jpg, frame_005.jpg, frame_009.jpg, frame_012.jpg, frame_014.jpg,</div></div>
+            <div class="text"><div class="left">[case3]</div><div class="right">frame_003.jpg, frame_005.jpg, frame_009.jpg, frame_012.jpg, frame_014.jpg,</div></div>
+            <div class="text"><div class="left">[case4]</div><div class="right">frame_003.jpg, frame_005.jpg, frame_009.jpg, frame_012.jpg, frame_014.jpg,</div></div>
+        </div>
+    </div>
+</body>
+</html>
